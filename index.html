@@ -3,39 +3,54 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="视频在线解析">
-    <title>视频在线解析</title>
     <link rel="stylesheet" href="./css/bootcss_pure_min.css"/>
     <link rel="stylesheet" href="./css/main.css"/>
     <script type="text/javascript" src="./js/videoAPIs.js"></script>
     <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css" media="all">
+
+    <title>VIP视频在线解析</title>
 </head>
 
 <body>
 <div id="main">
     <div class="header">
-        <h2><strong>VIP视频在线解析</strong></h2>
-        <strong>源代码：<a target="_blank" href="https://github.com/nnngu/VideoAnalysis">https://github.com/nnngu/VideoAnalysis</a></strong>
+        <strong style="font-size: 20px">VIP视频在线解析</strong><br/>
+        <strong style="font-size: 16px">源代码：<a target="_blank" href="https://github.com/nnngu/VideoAnalysis">https://github.com/nnngu/VideoAnalysis</a></strong>
     </div>
-    <div class="content">
-        <p>
-            <small>
-                <span style="color: rgb(254, 139, 31); display: block; text-align: center; ">本站将持久更新，保证可用性！若播放异常，刷新或者更换线路即可！</span>
-            </small>
-        </p>
 
-        <div class="pure-form">
-            <fieldset>
+    <!--<div class="content">-->
+        <!--<div class="pure-form">-->
+            <!--<fieldset>-->
 
-                <select id='sel'></select>
-                <input type="text" id="url" placeholder="http://">
-                <select id='open'>
-                    <option value='0'>新窗口播放</option>
-                    <option value='1'>本窗口播放</option>
-                </select>
-                <button class="pure-button pure-button-primary" onclick="play();">点击播放</button>
-            </fieldset>
+                <!--<select id='sel'></select>-->
+                <!--<input type="text" id="url" placeholder="http://">-->
+                <!--<select id='open'>-->
+                    <!--<option value='0'>新窗口播放</option>-->
+                    <!--<option value='1'>本窗口播放</option>-->
+                <!--</select>-->
+                <!--<button class="pure-button pure-button-primary" onclick="play();">点击播放</button>-->
+            <!--</fieldset>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <div class="col-md-14 column">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <span style="color: rgb(254, 139, 31); display: block; text-align: center;">本站将持久更新，保证可用性！若播放异常，刷新或者更换线路即可！<span>            <br></span></span>
+            </div>
         </div>
     </div>
+
+    <div class="col-md-14 column">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <iframe allowtransparency="true" scrolling="no" src="./html/index_2.html" frameborder="0" height="600px"
+                        width="100%"></iframe>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 </body>
