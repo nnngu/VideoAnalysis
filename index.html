@@ -5,7 +5,6 @@
     <meta name="description" content="视频在线解析">
     <link rel="stylesheet" href="./css/bootcss_pure_min.css"/>
     <link rel="stylesheet" href="./css/main.css"/>
-    <script type="text/javascript" src="./js/videoAPIs.js"></script>
     <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/index.css" media="all">
 
@@ -14,30 +13,16 @@
 
 <body>
 <div id="main">
+
     <div class="header">
         <strong style="font-size: 20px">VIP视频在线解析</strong><br/>
         <strong style="font-size: 16px">源代码：<a target="_blank" href="https://github.com/nnngu/VideoAnalysis">https://github.com/nnngu/VideoAnalysis</a></strong>
     </div>
 
-    <!--<div class="content">-->
-        <!--<div class="pure-form">-->
-            <!--<fieldset>-->
-
-                <!--<select id='sel'></select>-->
-                <!--<input type="text" id="url" placeholder="http://">-->
-                <!--<select id='open'>-->
-                    <!--<option value='0'>新窗口播放</option>-->
-                    <!--<option value='1'>本窗口播放</option>-->
-                <!--</select>-->
-                <!--<button class="pure-button pure-button-primary" onclick="play();">点击播放</button>-->
-            <!--</fieldset>-->
-        <!--</div>-->
-    <!--</div>-->
-
     <div class="col-md-14 column">
         <div class="panel panel-default">
             <div class="panel-body">
-                <span style="color: rgb(254, 139, 31); display: block; text-align: center;">本站将持久更新，保证可用性！若播放异常，刷新或者更换线路即可！<span>            <br></span></span>
+                <span style="color: rgb(254, 139, 31); display: block; text-align: center;">本站将持久更新，保证可用性！若播放异常，请刷新或者更换线路！<span>            <br></span></span>
             </div>
         </div>
     </div>
@@ -51,7 +36,58 @@
         </div>
     </div>
 
-</div>
+    <div class="col-md-14 column">
+        <form method="get">
+            <div class="col-md-3" style="margin-top: 8px;">
+                <div class="input-group" style="width: 100%;">
 
+                    <select class="form-control input-lg" name="jk">
+                        <option value="http://jqaaa.com/jx.php?url=">线路一</option>
+                        <option value="http://api.662820.com/xnflv/index.php?url=">线路二</option>
+                        <option value="http://api.xfsub.com/index.php?url=">线路三</option>
+                        <option value="http://jiexi.92fz.cn/player/vip.php?url=">线路四</option>
+                        <option value="http://api.nepian.com/ckparse/?url=">线路五</option>
+                        <option value="http://aikan-tv.com/?url=">线路六</option>
+                        <option value="http://j.zz22x.com/jx/?url=">线路七</option>
+                        <option value="http://www.efunfilm.com/yunparse/index.php?url=">线路八</option>
+                        <option value="https://api.flvsp.com/?url=">线路九</option>
+                        <option value="http://api.xfsub.com/index.php?url=">线路十</option>
+                        <option value="http://api.47ks.com/webcloud/?v=">线路十</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-7" style="margin-top: 8px;">
+                <div class="input-group" style="width: 100%;">
+
+                    <input value="" class="form-control input-lg" name="url" placeholder="输入播放地址" type="text"></div>
+            </div>
+            <div>
+                <div class="col-md-2" style="margin-top: 8px;">
+                    <div class="col-md-14 column">
+
+                    </div>
+                    <button type="submit" class="btn btn-default btn-lg btn-block">立即播放</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+    <br/>
+    <br/>
+
+
+
+    <div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="col-md-12" align="center">
+            作者：<a href="https://github.com/nnngu" target="_blank">@nnngu</a>
+        </div>
+        <br/>
+    </div>
+
+</div>
 </body>
 </html>
