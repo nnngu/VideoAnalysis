@@ -1,4 +1,5 @@
-var data = [
+window.onload = function() {
+	var data = [
 	{name:"通用解析1",url:"https://api.47ks.com/webcloud/?v="},
 	{name:"通用解析2",url:"http://api.mp4la.net/?url="},
 	{name:"通用解析3",url:"http://v.72du.com/api/?url="},
@@ -30,15 +31,17 @@ var data = [
 	{name:"优酷云解析1",url:"http://api.baiyug.cn/vip/index.php?url="},
 	{name:"优酷云解析2",url:"http://977345961.kezi.wang/ykyun/c.php?vid="},
 	];
-for (var i in  data)
-{
-	var opt = document.createElement ("option");
-	opt.value = data[i].url;
-	opt.innerText = data[i].name;
-	document.getElementById('sel').appendChild (opt);
+	for (var i in  data)
+	{
+		var opt = document.createElement ("option");
+		opt.value = data[i].url;
+		opt.innerText = data[i].name;
+		document.getElementById('sel').appendChild (opt);
+	}
 }
 
-function play(){
+
+function play() {
 	var url = document.getElementById("url").value;
 	if(url.indexOf('http') == -1)
 	{	
@@ -57,6 +60,6 @@ function play(){
 			window.location = url;
 			console.log(1);
 			break;
-
 	}
 }
+
