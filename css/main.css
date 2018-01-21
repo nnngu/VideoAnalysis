@@ -964,7 +964,6 @@ aside a, aside a:visited {
 
 .header {
     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    max-width: 768px;
     margin: 0 auto;
     padding: 1em;
     text-align: center;

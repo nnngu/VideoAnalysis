@@ -671,7 +671,7 @@ select.input-lg { height: 46px; line-height: 46px; }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover { color: rgb(255, 255, 255); background-color: rgb(8, 8, 8); }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover { color: rgb(68, 68, 68); background-color: transparent; }
 }
-.breadcrumb > li + li::before { padding: 0px 5px; color: rgb(204, 204, 204); content: "/ "; }
+/*.breadcrumb > li + li::before { padding: 0px 5px; color: rgb(204, 204, 204); content: "/ "; }*/
 @media screen and (min-width: 768px) {
   .jumbotron { padding-top: 48px; padding-bottom: 48px; }
   .container .jumbotron, .container-fluid .jumbotron { padding-right: 60px; padding-left: 60px; }
@@ -882,4 +882,9 @@ a:hover { color: red; text-decoration: underline; }
 }
 @media screen and (max-width: 768px) {
   .tmall_1111_left { position: fixed; right: 5px; width: 80px; height: 80px; text-align: center; cursor: pointer; z-index: 99; left: initial; bottom: 150px; top: inherit; display: block; }
+}
+
+.btn:focus {
+  background: rgb(255, 151, 53);
+  color: #ffffff;
 }
