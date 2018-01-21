@@ -1543,3 +1543,7 @@ pre .support.value {
     font-weight: normal;
     color: #3b8bba; /* skinbuilder block-mine-text-low with #1f8dd6 as primary */
 }
+
+.alert { padding: 15px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px; }
+.alert-danger { color: rgb(169, 68, 66); background-color: rgb(242, 222, 222); border-color: rgb(235, 204, 209); }
+
